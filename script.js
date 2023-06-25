@@ -91,7 +91,6 @@ async function runScript() {
     const dataSfCount = await selectedOptionElement.getAttribute(
       "data-sf-count"
     );
-    console.log("Selected option data-sf-count:", dataSfCount);
 
     if (dataSfCount > 0) {
       log(`${dataSfCount} of Studio apartments available`);
